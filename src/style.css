@@ -1,0 +1,43 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.webgl
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+
+    overflow: hidden;
+
+    width: 100%;
+    height: 100%;
+}
+aside {
+    position: absolute;
+    right: 3rem;
+}
+aside div img {
+    object-fit: cover;
+    height: 10svh;
+    width: 100%;
+}
+
+section {
+    height: 50svh;
+}
+
+.image {
+    transition: transform 0.3s ease;
+}
+
+.image.active {
+    transform: scale(1.2);
+}
+
+.image.previous, .image.next {
+    transform: scale(1.1);
+}
